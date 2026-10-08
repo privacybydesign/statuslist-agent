@@ -28,7 +28,7 @@ services:
         condition: service_healthy
 
   db:
-    image: postgres:16-bookworm
+    image: postgres:17-bookworm
     container_name: statuslist-db
     restart: unless-stopped
     environment:
